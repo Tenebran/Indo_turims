@@ -1,0 +1,33 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./content.css);
+
+@font-face {
+	font-family: 'Segoe WP Semibold';
+	src: local('☺'), url('../fonts/WP\ Semibold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe WP SemiLight';
+	src: local('☺'), url('../fonts/Segoe\ WP\ SemiLight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe WP';
+	src: local('☺'), url('../fonts/segoeuil.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
